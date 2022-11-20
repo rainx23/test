@@ -1,0 +1,24 @@
+# 商业转载请联系作者获得授权，非商业转载请注明出处。
+# For commercial use, please contact the author for authorization. For non-commercial use, please indicate the source.
+# 协议(License)：署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)
+# 作者(Author)：Rainx
+# 链接(URL)：http://110.40.140.16:198/%e7%9b%b8%e5%86%8c/
+# 来源(Source)：Rainx's Blog
+
+未上传图片或图片设置异常
+请在模板页设置如下类似如下格式的 img 标签,支持本地上传和外部引入
+
+如下代码会被渲染成 展示页
+
+        <src="https://www.wahaotu.com/uploads/allimg/202010/1602912171649821.jpg" alt="" data-header="标题" data-info="信息" >
+        <img src="https://www.wahaotu.com/uploads/allimg/202010/1602912171649821.jpg" alt="" >
+        <img src="https://www.wahaotu.com/uploads/allimg/202010/1602912171649821.jpg" alt="" data-info="信息" >
+        <img src="https://www.wahaotu.com/uploads/allimg/202010/1602912171649821.jpg" alt="" vertical=false data-info="信息" >
+        <img src="https://www.wahaotu.com/uploads/allimg/202010/1602912171649821.jpg" alt="" vertical=false data-header="标题" data-info="信息" >
+            
+img 参数说明
+data-header:标题
+data-info:内容
+vertical:是否竖向排列(默认竖向即vertical=true)
+
+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
